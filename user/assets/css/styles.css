@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    margin-top: 0;
+}
+
+#hero .carousel-item {
+    height: 300px;
+}
+
+#hero .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+main section {
+    margin-bottom: 0;
+}
+
+#gallery {
+    padding: 0;
+}
+
+#gallery .col-md-3 {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#gallery .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#gallery .col-md-3:hover img {
+    transform: scale(1.1);
+}
+
+#gallery .col-md-3:hover .overlay {
+    opacity: 1;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+#welcome h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+.card-body h5 {
+    font-weight: bold;
+}
